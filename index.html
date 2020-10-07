@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>独醉巅峰工作室</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+ 
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: rgb(180, 180, 180);
+  width: 100%;
+  padding: 50px;
+}
+/* 图片2*/
+.fekeimg{
+    position:absolute;
+    left:50px;
+}]
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+@keyframes myfirst
+{
+    from {background:red;}
+    to {background:yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {background:red;}
+    to {background:yellow;}
+}
+/*固定的文字*/
+p.pos_fixed
+{
+    position:fixed;
+    top:30px;
+    right:5px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>独醉巅峰工作室</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">主页</a>
+  <a href="#">作品</a>
+  <a href="#">攻略</a>
+</div>
+<br>
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>合作伙伴(按照首字母排列)</h2>
+            <div class="fakeimg"><img src="火柴logo.png"  width="300" height="300" style="position:absolute; left:0px; top:380px; "></div>
+            <div class="fakeimg"><img src="梦樱logo.jpg"  width="300" height="300" style="position:absolute; left:400px; top:380px; "></div>
+            <div class="fakeimg"><img src="柠蓝logo.jpg"  width="300" height="300" style="position:absolute; left:800px; top:380px; "></div>
+            <div class="fakeimg"><img src="星河logo.png"  width="300" height="300" style="position:absolute; left:0px; top:680px; "></div>
+            <div class="fakeimg"><img src="星恋logo.jpg"  width="300" height="300" style="position:absolute; left:400px; top:680px; "></div>
+            <div class="fakeimg"><img src="星斩logo.jpg" width="300" height="300" style="position:absolute; left:800px; top:680px; "></div>    
+            <p>人的一生起起伏伏，见首不见尾，爱慕虚荣是一生，平平淡淡是一生，豪情万丈是一生，繁荣富贵是一生，既然可以做到更好，为何不去努力？做自己想做的事，看自己想看的景，陪自己想陪的人，吃自己想吃的饭，将来老了，回首过去，问心无愧，此生无悔。</p>
+        </div>
+        <!--nl xh xz xl my hc-->
+        <div class="card">
+            <h2>小说</h2>
+            <div class="fakeimg"><img src="我的专属小可爱.jpg"  width="200" height="300" style="position:absolute; left:0px; top:1166px; "></div>
+            <div class="fakeimg"><img src="凶手就是你.jpg"  width="200" height="300" style="position:absolute; left:300px; top:1166px; "></div>
+            <div class="fakeimg"><img src="剑仙.jpg"  width="200" height="300" style="position:absolute; left:600px; top:1166px; "></div>
+
+
+            <p>靠小说起家，编程圈中出奇迹，靠小说腾达，小说心里腾龙池。不畏艰难，不忘初心，牢记使命，砥砺前行。</p>
+        </div>
+        <div >
+            <div><img src="logo - 非横纵比版.jpg"  width="900" height="600" style="position:absolute; left:0px; top:1700px; "></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>独醉巅峰工作室，编程工作室中小说最强，小说工作室中，编程最棒！</h1>
+            <h3>温馨提示：请不要将鼠标挪到以下空白区域，否则图片会停止滑动</h3>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>关于我</h2>
+            <p>独醉巅峰工作室室长梦梓骁，连任三次独醉巅峰工作室的室长，第三次传位墨程，独醉巅峰工作室中编程能力最强，小说剧情一级策划师，一级主编</p>
+        </div>
+        <div class="card">
+            <h2>关于我们</h2>
+            <p>独醉巅峰工作室建立于2020年3月19日，实力雄厚，截至目前战略合作工作室7个，旗下工作室4个，发展全面，技术顶尖，欢迎各路大神加入我们</p>
+        </div>
+        <div class="card">
+            <h3>热门文章</h3>
+            <div class="fakeimg"><p>1.梦梓骁突然沦为精神小伙</p></div>
+            <div class="fakeimg"><p>2.精神小伙剃了光头，更加精神</p></div>
+            <div class="fakeimg"><p>3.隔壁梦叔拿起斧头将自己的家砸坏</p></div>
+            <div class="fakeimg"><p>究竟是人性的丧失还是道德的渐毁，请关注独醉巅峰官方报纸</p></div>
+            <div class="fakeimg"><h1>独醉巅峰工作室每月赠言</h1></div>
+            <div class="fakeimg"><a href="https://m.vipcode.com/wx/myWork.html?workId=649271">十月赠言：不要在生活面前低下了头，相信自己，没有过不去的坎</a></div>
+        </div>
+        <div class="card">
+            <h3>关注我</h3>
+        <p>独醉巅峰工作室QQ群：1006146114，微信：duzuisirou，创始人邮箱：lad080714@QQ.com,工作室邮箱：luanandong@dzdfgzs.onexmail.com</p>
+        </div>
+    </div>    
+    <MARQUEE onmouseover=stop() onmouseout=start() scrollAmount=30 loop=infinite deplay="0"><IMG src="logo1.jpg" ><IMG src="空白图.png" ><IMG src="logo2.png"><IMG src="空白图.png" ><IMG src="logo3.png" ><IMG src="空白图.png" ><IMG src="logo4.png" ><IMG src="空白图.png" ><IMG src="logo5.png" ><IMG src="空白图.png" ><IMG src="logo6.png" ><IMG src="空白图.png" ><IMG src="logo7.png" ></MARQUEE>
+</div>
+<div class="footer">
+    <h2>本网站版权归属独醉巅峰，抄袭者可耻，使用源代码请备注转发出处并联系邮箱luanandong@dzdfgzs.onexmail.com，若未按要求盗用一经发现必将严惩（0.20.08.30版本）</h2>
+</div>
+</body>
+</html>
